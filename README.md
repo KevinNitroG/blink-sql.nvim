@@ -10,7 +10,6 @@ SQL reserved keywords
 ---@type LazySpec
 return {
   "KevinNitroG/blink-sql.nvim",
-  event = "InsertEnter",
   specs = {
     {
       "Saghen/blink.cmp",
@@ -53,7 +52,6 @@ local allowed_filetypes_nodes = {
 ---@type LazySpec
 return {
   "KevinNitroG/blink-sql.nvim",
-  event = "InsertEnter",
   specs = {
     {
       "Saghen/blink.cmp",
@@ -107,9 +105,7 @@ return {
       },
     },
   },
-  dependencies = {
-    "Saghen/blink.cmp",
-  },
+  dependencies = "Saghen/blink.cmp",
 }
 ```
 
